@@ -52,6 +52,8 @@ El único requisito para este proyecto es tener Docker Engine y Docker Compose e
 
 ### Visualización
 
-- `localhost:5000/`
+  ``` 
+  localhost:5000
+  ```
    
-   En esta ubicación vas a encontrar la página inicial en donde vas a poder navegar por las diferentes funcionalidades.
+  En esta ubicación vas a encontrar la página inicial en donde vas a poder navegar por las diferentes funcionalidades.

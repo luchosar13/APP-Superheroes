@@ -12,7 +12,7 @@ Esta aplicación tiene como objetivo administrar información detallada de super
 - Casa editorial
 - Biografía
 - Equipamiento
-- Imagen
+- Imágen
 
 Los datos se almacenan en una base de datos MongoDB, y la interfaz web fue desarrollada con Flask.
 
@@ -46,7 +46,7 @@ El único requisito para este proyecto es tener Docker Engine y Docker Compose e
 
 - Para levantar el proyecto:
   
-  ```sudo docker compose up --build```
+  ``` sudo docker compose up --build ```
 
 ### Visualización
 

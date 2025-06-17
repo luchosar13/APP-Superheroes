@@ -43,6 +43,7 @@ Los datos se almacenan en una base de datos MongoDB, y la interfaz web fue desar
 El único requisito para este proyecto es tener Docker Engine y Docker Compose en tu máquina local.
 
 ### Código
+``` sudo docker compose up --build ```
 
 - Para levantar el proyecto:
   

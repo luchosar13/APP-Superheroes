@@ -44,7 +44,7 @@ El único requisito para este proyecto es tener Docker Engine y Docker Compose e
 
 ### Código
 
-Para levantar el proyecto:
+- Para levantar el proyecto:
   
   ```
   sudo docker compose up --build
@@ -52,8 +52,10 @@ Para levantar el proyecto:
 
 ### Visualización
 
+- En esta ubicación vas a encontrar la página inicial en donde vas a poder navegar por las diferentes funcionalidades.
+
   ``` 
   localhost:5000
   ```
    
-  En esta ubicación vas a encontrar la página inicial en donde vas a poder navegar por las diferentes funcionalidades.
+

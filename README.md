@@ -44,7 +44,7 @@ El único requisito para este proyecto es tener Docker Engine y Docker Compose e
 
 ### Código
 
-- Para levantar el proyecto:
+Para levantar el proyecto:
   
   ```
   sudo docker compose up --build

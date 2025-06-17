@@ -1,0 +1,6 @@
+flask
+Jinja2
+serpapi
+google-search-results
+pymongo
+flasgger

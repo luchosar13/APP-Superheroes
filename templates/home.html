@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhéroes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container my-4">
+
+<!-- Mensajes flash -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="container mt-3">
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-start">Listado de Superhéroes y Villanos</h1>
+
+        <div class="d-flex">
+
+            <!-- Formulario de búsqueda -->
+            <form method="get" action="{{ url_for('cards') }}" class="d-flex me-2" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar personaje..." name="q" aria-label="Buscar" value="{{ request.args.get('q', '') }}">
+                <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+
+            <!-- Dropdown de casas -->
+            <div class="dropdown me-2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Filtrar por casa
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="{{ url_for('detalle_personajes_por_casa', casa='Marvel') }}">Marvel</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('detalle_personajes_por_casa', casa='DC') }}">DC</a></li>
+                </ul>
+            </div>
+
+            <!-- Dropdown de administración -->
+            <div class="dropdown">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Administración
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="{{ url_for('agregar_personaje') }}">Agregar personaje</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('modificar_personaje') }}">Modificar personaje</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('eliminar_personaje') }}">Eliminar personaje</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for item in datos %}
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item['nombre'] }}</h5>
+                    <h6 class="card-subtitle text-muted">{{ item['casa'] }} - {{ item['tipo'] }}</h6>
+                    <p class="card-text mt-2"><strong>Nombre real:</strong> {{ item['nombre_real'] }}</p>
+                    <p class="card-text"><strong>Año de aparición:</strong> {{ item['anio_aparicion'] }}</p>
+                    <p><strong>Equipamiento:</strong> {{ item['equipamiento'] }}</p>
+                    <p><strong>Biografía:</strong> {{ item['biografia'] | truncate(50, True, '...') }}</p>
+                </div>
+                <div class="card-footer bg-light text-center">
+                    <a href="{{ url_for('detalle_personaje', nombre=item['nombre']) }}" class="btn btn-primary btn-sm mt-2">Ver detalle</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

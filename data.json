@@ -1,0 +1,533 @@
+[
+  {
+    "nombre": "Wolverine",
+    "nombre_real": "James",
+    "anio_aparicion": 1974,
+    "casa": "Marvel",
+    "biografia": "Mutante con factor de curación acelerado, sentidos agudizados y garras retráctiles de adamantium. Miembro destacado de los X-Men, conocido por su temperamento feroz y habilidades de combate.",
+    "equipamiento": "Garras recubiertas de adamantium, traje resistente.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Deadpool",
+    "nombre_real": "Wade Wilson",
+    "anio_aparicion": 1991,
+    "casa": "Marvel",
+    "biografia": "Mercenario con habilidades regenerativas similares a Wolverine, conocido por su humor irreverente y ruptura de la cuarta pared. Fue sujeto de experimentos que le otorgaron poderes, aunque con daños psicológicos.",
+    "equipamiento": "Katana, pistolas, armas variadas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Daredevil",
+    "nombre_real": "Matt Murdock",
+    "anio_aparicion": 1964,
+    "casa": "Marvel",
+    "biografia": "Ciego desde niño debido a un accidente con químicos, desarrolló sentidos superhumanos. Abogado de día, vigilante de noche en Hell’s Kitchen, Nueva York.",
+    "equipamiento": "Bastón de combate, traje especial.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Storm",
+    "nombre_real": "Ororo Munroe",
+    "anio_aparicion": 1975,
+    "casa": "Marvel",
+    "biografia": "Mutante capaz de controlar el clima. Fue líder de los X-Men y es una de las heroínas más poderosas y respetadas. Su poder incluye manipulación de elementos atmosféricos y vuelo.",
+    "equipamiento": "Generalmente no usa equipamiento, pero lleva un traje resistente y a menudo un manto.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Jean Grey",
+    "nombre_real": "Jean Elaine Grey",
+    "anio_aparicion": 1963,
+    "casa": "Marvel",
+    "biografia": "Mutante con poderes telepáticos y telequinéticos. Miembro fundador de los X-Men. Su historia está muy ligada a la entidad cósmica Fénix, que potencia sus habilidades.",
+    "equipamiento": "No tiene equipamiento específico.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Cyclops",
+    "nombre_real": "Scott Summers",
+    "anio_aparicion": 1963,
+    "casa": "Marvel",
+    "biografia": "Líder natural de los X-Men. Emite potentes rayos de energía desde sus ojos, que no puede controlar sin unas gafas especiales.",
+    "equipamiento": "Gafas o visor con cristal de rubí que controla sus rayos ópticos.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Gambit",
+    "nombre_real": "Remy LeBeau",
+    "anio_aparicion": 1990,
+    "casa": "Marvel",
+    "biografia": "Mutante con habilidad para cargar objetos con energía cinética, usualmente cartas de póker que usa como proyectiles. Ex-ladrón y miembro de los X-Men.",
+    "equipamiento": "Bastón de combate, cartas cargadas de energía.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Silver Surfer",
+    "nombre_real": "Norrin Radd",
+    "anio_aparicion": 1966,
+    "casa": "Marvel",
+    "biografia": "Ex-heraldo de Galactus, dotado de poder cósmico ilimitado, conocido por su tabla que le permite surcar el espacio y usar energía para combate.",
+    "equipamiento": "Tabla surf cósmica.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Ant-Man",
+    "nombre_real": "Hank Pym",
+    "anio_aparicion": 1962,
+    "casa": "Marvel",
+    "biografia": "Científico que inventó la tecnología para cambiar su tamaño a voluntad, con fuerza proporcional cuando es pequeño. Scott Lang es el sucesor más conocido como Ant-Man.",
+    "equipamiento": "Traje que permite encogerse y comunicarse con hormigas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Wasp",
+    "nombre_real": "Janet van Dyne",
+    "anio_aparicion": 1963,
+    "casa": "Marvel",
+    "biografia": "Miembro fundador de los Avengers, puede reducir su tamaño y volar gracias a su traje, también tiene la capacidad de disparar “picaduras” de energía.",
+    "equipamiento": "Traje con alas y generador de energía para picadura.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Superman",
+    "nombre_real": "Clark Kent",
+    "anio_aparicion": 1938,
+    "casa": "DC",
+    "biografia": "Extraterrestre del planeta Krypton con super fuerza, velocidad, vuelo, visión láser y otros poderes. Protector de la humanidad y símbolo de esperanza.",
+    "equipamiento": "Traje resistente, símbolo icónico.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Batman",
+    "nombre_real": "Bruce Wayne",
+    "anio_aparicion": 1939,
+    "casa": "DC",
+    "biografia": "Millonario que combate el crimen en Gotham City usando su intelecto, habilidades físicas y gadgets tecnológicos.",
+    "equipamiento": "Armadura, gadgets, batimóvil, batarangs.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Wonder Woman",
+    "nombre_real": "Diana Prince",
+    "anio_aparicion": 1941,
+    "casa": "DC",
+    "biografia": "Princesa amazona con fuerza, velocidad y habilidades de combate excepcionales, luchadora por la justicia y la paz.",
+    "equipamiento": "Lazo de la verdad, brazaletes indestructibles, espada y escudo.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Flash",
+    "nombre_real": "Barry Allen",
+    "anio_aparicion": 1956,
+    "casa": "DC",
+    "biografia": "Velocista que puede correr a velocidades increíbles, manipula el tiempo y la dimensión a través de la fuerza de la velocidad.",
+    "equipamiento": "Traje que reduce fricción y protege a alta velocidad.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Green Lantern",
+    "nombre_real": "Hal Jordan",
+    "anio_aparicion": 1959,
+    "casa": "DC",
+    "biografia": "Miembro del Cuerpo de Green Lanterns que usa un anillo de poder capaz de crear construcciones de energía con la fuerza de su voluntad.",
+    "equipamiento": "Anillo de poder, traje especial.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Aquaman",
+    "nombre_real": "Arthur Curry",
+    "anio_aparicion": 1941,
+    "casa": "DC",
+    "biografia": "Rey de Atlantis con la habilidad de comunicarse con la vida marina y super fuerza acuática.",
+    "equipamiento": "Tridente de Poseidón.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Cyborg",
+    "nombre_real": "Victor Stone",
+    "anio_aparicion": 1980,
+    "casa": "DC",
+    "biografia": "Mitad humano mitad máquina con habilidades tecnológicas avanzadas y fuerza sobrehumana.",
+    "equipamiento": "Cuerpo cibernético con múltiples armas y sistemas tecnológicos.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Green Arrow",
+    "nombre_real": "Oliver Queen",
+    "anio_aparicion": 1941,
+    "casa": "DC",
+    "biografia": "Arqueólogo experto y vigilante que usa arco y flechas con gran puntería y variedad de flechas especiales.",
+    "equipamiento": "Arco, flechas especiales y gadgets.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Martian Manhunter",
+    "nombre_real": "J'onn J'onzz",
+    "anio_aparicion": 1955,
+    "casa": "DC",
+    "biografia": "Marciano con poderes como telepatía, cambio de forma, invisibilidad y fuerza sobrehumana.",
+    "equipamiento": "No usa equipamiento habitual.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Zatanna",
+    "nombre_real": "Zatanna Zatara",
+    "anio_aparicion": 1964,
+    "casa": "DC",
+    "biografia": "Hechicera con la habilidad de lanzar conjuros mágicos mediante habla al revés.",
+    "equipamiento": "Vestimenta mágica, varita mágica en ocasiones.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Black Canary",
+    "nombre_real": "Dinah Lance",
+    "anio_aparicion": 1947,
+    "casa": "DC",
+    "biografia": "Heroe con habilidades de combate cuerpo a cuerpo y un grito sónico poderoso llamado \"Canario Sonico\".",
+    "equipamiento": "Traje especial, sin armas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Shazam",
+    "nombre_real": "Billy Batson",
+    "anio_aparicion": 1940,
+    "casa": "DC",
+    "biografia": "Joven que al pronunciar la palabra 'Shazam' se transforma en un superHeroe con poderes divinos.",
+    "equipamiento": "Traje mágico.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Hawkman",
+    "nombre_real": "Carter Hall",
+    "anio_aparicion": 1940,
+    "casa": "DC",
+    "biografia": "Reencarnación de un guerrero egipcio con alas para volar y armas antiguas.",
+    "equipamiento": "Alas de metal, mazas y armadura.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Hawkgirl",
+    "nombre_real": "Shiera Hall",
+    "anio_aparicion": 1940,
+    "casa": "DC",
+    "biografia": "Compañera y pareja de Hawkman, con habilidades similares y armas antiguas.",
+    "equipamiento": "Alas de metal, mazas y armadura.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Blue Beetle",
+    "nombre_real": "Jaime Reyes",
+    "anio_aparicion": 2006,
+    "casa": "DC",
+    "biografia": "Joven que obtiene un escarabajo alienígena que le otorga un exoesqueleto con armas avanzadas.",
+    "equipamiento": "Exoesqueleto alienígena con armas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Plastic Man",
+    "nombre_real": "Patrick O'Brian",
+    "anio_aparicion": 1941,
+    "casa": "DC",
+    "biografia": "Heroe con la habilidad de estirarse y moldear su cuerpo de formas ilimitadas.",
+    "equipamiento": "No usa equipamiento.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Batgirl",
+    "nombre_real": "Barbara Gordon",
+    "anio_aparicion": 1967,
+    "casa": "DC",
+    "biografia": "Aliada de Batman experta en artes marciales y hacking.",
+    "equipamiento": "Gadgets, traje resistente.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Nightwing",
+    "nombre_real": "Dick Grayson",
+    "anio_aparicion": 1984,
+    "casa": "DC",
+    "biografia": "Ex-Robin que se independiza para combatir el crimen con su propio estilo.",
+    "equipamiento": "Bastones, gadgets, traje especial.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Constantine",
+    "nombre_real": "John Constantine",
+    "anio_aparicion": 1985,
+    "casa": "DC",
+    "biografia": "Detective sobrenatural y mago que combate fuerzas oscuras.",
+    "equipamiento": "Magia, armas menores, cigarrillo.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Red Tornado",
+    "nombre_real": "John Smith",
+    "anio_aparicion": 1968,
+    "casa": "DC",
+    "biografia": "Android con poderes de control del viento.",
+    "equipamiento": "Cuerpo androide, control del viento.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Magneto",
+    "nombre_real": "Max Eisenhardt",
+    "anio_aparicion": 1963,
+    "casa": "Marvel",
+    "biografia": "Mutante con el poder de controlar campos magnéticos, a menudo antagonista de los X-Men.",
+    "equipamiento": "Casco que protege de ataques psíquicos.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Green Goblin",
+    "nombre_real": "Norman Osborn",
+    "anio_aparicion": 1964,
+    "casa": "Marvel",
+    "biografia": "Enemigo de Spider-Man, un industrial loco que usa tecnología avanzada y un traje con poderes.",
+    "equipamiento": "Planeador volador, bombas, arsenal tecnológico.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Doctor Doom",
+    "nombre_real": "Victor Von Doom",
+    "anio_aparicion": 1962,
+    "casa": "Marvel",
+    "biografia": "Genio científico y gobernante de Latveria, enemigo recurrente de los Cuatro Fantásticos.",
+    "equipamiento": "Armadura de alta tecnología, poderes mágicos.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Red Skull",
+    "nombre_real": "Johann Schmidt",
+    "anio_aparicion": 1941,
+    "casa": "Marvel",
+    "biografia": "Líder nazi y enemigo de Capitán América con habilidades tácticas y físicas.",
+    "equipamiento": "Armas de guerra y equipo táctico.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Ultron",
+    "nombre_real": "Inteligencia Artificial",
+    "anio_aparicion": 1968,
+    "casa": "Marvel",
+    "biografia": "Robot inteligente y enemigo de los Avengers, busca la destrucción de la humanidad.",
+    "equipamiento": "Cuerpo robótico indestructible.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Thanos",
+    "nombre_real": "Thanos",
+    "anio_aparicion": 1973,
+    "casa": "Marvel",
+    "biografia": "Titan loco obsesionado con el equilibrio del universo, busca recolectar las Gemas del Infinito.",
+    "equipamiento": "Guantelete del Infinito con las Gemas.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Loki",
+    "nombre_real": "Loki Laufeyson",
+    "anio_aparicion": 1949,
+    "casa": "Marvel",
+    "biografia": "Dios de las mentiras y hermano adoptivo de Thor, conocido por su astucia y poderes mágicos.",
+    "equipamiento": "Magia, cetro, casco con cuernos.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Kingpin",
+    "nombre_real": "Wilson Fisk",
+    "anio_aparicion": 1967,
+    "casa": "Marvel",
+    "biografia": "Mafioso poderoso y enemigo de Daredevil y Spider-Man.",
+    "equipamiento": "Fuerza sobrehumana, traje blindado.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Venom",
+    "nombre_real": "Eddie Brock",
+    "anio_aparicion": 1988,
+    "casa": "Marvel",
+    "biografia": "Simbionte alienígena que se une a Eddie Brock para combatir o antagonizar a Spider-Man.",
+    "equipamiento": "Simbionte con fuerza y habilidades sobrehumanas.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Mysterio",
+    "nombre_real": "Quentin Beck",
+    "anio_aparicion": 1964,
+    "casa": "Marvel",
+    "biografia": "Ilusionista y enemigo de Spider-Man, usa efectos especiales y tecnología para engañar.",
+    "equipamiento": "Traje con casco, efectos holográficos.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Joker",
+    "nombre_real": "Desconocido / Jack Napier (varía)",
+    "anio_aparicion": 1940,
+    "casa": "DC",
+    "biografia": "El archienemigo de Batman, un criminal psicópata con una sonrisa macabra y humor oscuro.",
+    "equipamiento": "Armas de truco, químicos, inteligencia criminal.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Lex Luthor",
+    "nombre_real": "Alexander Joseph Luthor",
+    "anio_aparicion": 1940,
+    "casa": "DC",
+    "biografia": "Empresario y genio científico, principal enemigo de Superman.",
+    "equipamiento": "Trajes blindados, tecnología avanzada.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Darkseid",
+    "nombre_real": "Uxas",
+    "anio_aparicion": 1970,
+    "casa": "DC",
+    "biografia": "Tirano cósmico y dios de la tiranía, busca el control absoluto del universo.",
+    "equipamiento": "Poderes cósmicos, rayos Omega.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Brainiac",
+    "nombre_real": "Vril Dox",
+    "anio_aparicion": 1958,
+    "casa": "DC",
+    "biografia": "Alienígena con inteligencia superior, enemigo recurrente de Superman.",
+    "equipamiento": "Tecnología avanzada y control mental.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Reverse Flash",
+    "nombre_real": "Eobard Thawne",
+    "anio_aparicion": 1963,
+    "casa": "DC",
+    "biografia": "Velocista enemigo de Flash, usa velocidad para alterar el tiempo y causar caos.",
+    "equipamiento": "Traje que le permite correr a supervelocidad.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Sinestro",
+    "nombre_real": "Thaal Sinestro",
+    "anio_aparicion": 1961,
+    "casa": "DC",
+    "biografia": "Ex Green Lantern convertido en enemigo, usa un anillo amarillo de poder basado en el miedo.",
+    "equipamiento": "Anillo de poder amarillo.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Bane",
+    "nombre_real": "Desmond Dwayne",
+    "anio_aparicion": 1993,
+    "casa": "DC",
+    "biografia": "Villano fuerte y estratega, famoso por romper la espalda de Batman.",
+    "equipamiento": "Veneno que aumenta su fuerza, equipo de combate.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Deathstroke",
+    "nombre_real": "Slade Wilson",
+    "anio_aparicion": 1980,
+    "casa": "DC",
+    "biografia": "Asesino y mercenario altamente entrenado y mejorado físicamente.",
+    "equipamiento": "Armas diversas, armadura táctica.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Black Adam",
+    "nombre_real": "Teth-Adam",
+    "anio_aparicion": 1945,
+    "casa": "DC",
+    "biografia": "Villano y Villano con poderes mágicos similares a Shazam.",
+    "equipamiento": "Poderes mágicos y traje resistente.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Blade",
+    "nombre_real": "Eric Brooks",
+    "anio_aparicion": 1973,
+    "casa": "Marvel",
+    "biografia": "Cazador de vampiros con habilidades sobrehumanas debido a su sangre de vampiro.",
+    "equipamiento": "Espadas, armas de plata, habilidades vampíricas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Falcon",
+    "nombre_real": "Sam Wilson",
+    "anio_aparicion": 1969,
+    "casa": "Marvel",
+    "biografia": "Aliado de Captain America, usa un traje con alas mecánicas para volar y combate el crimen.",
+    "equipamiento": "Traje con alas, ganchos, armas tácticas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Ghost Rider",
+    "nombre_real": "Johnny Blaze",
+    "anio_aparicion": 1972,
+    "casa": "Marvel",
+    "biografia": "Motorista sobrenatural que posee poderes demoníacos para castigar a los malvados.",
+    "equipamiento": "Cadena infernal, motocicleta infernal, poderes demoníacos.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Iron Fist",
+    "nombre_real": "Daniel Rand",
+    "anio_aparicion": 1974,
+    "casa": "Marvel",
+    "biografia": "Experto en artes marciales que posee el poder del Puño de Hierro para canalizar energía mística.",
+    "equipamiento": "Poder del Puño de Hierro, artes marciales.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Moon Knight",
+    "nombre_real": "Marc Spector",
+    "anio_aparicion": 1975,
+    "casa": "Marvel",
+    "biografia": "Exmercenario poseído por el dios egipcio Khonshu, actúa como vigilante nocturno con múltiples identidades.",
+    "equipamiento": "Armas variadas, traje blindado, habilidades sobrehumanas nocturnas.",
+    "tipo": "Villano"
+  },
+  {
+    "nombre": "Nova",
+    "nombre_real": "Richard Rider",
+    "anio_aparicion": 1976,
+    "casa": "Marvel",
+    "biografia": "Miembro de la Nova Corps con poderes cósmicos y habilidades sobrehumanas.",
+    "equipamiento": "Traje de Nova Corps, poderes cósmicos, vuelo y fuerza sobrehumana.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Shang-Chi",
+    "nombre_real": "Shang-Chi",
+    "anio_aparicion": 1973,
+    "casa": "Marvel",
+    "biografia": "Maestro en artes marciales considerado uno de los mejores luchadores mano a mano del universo Marvel.",
+    "equipamiento": "Artes marciales, habilidades físicas excepcionales.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "She-Hulk",
+    "nombre_real": "Jennifer Walters",
+    "anio_aparicion": 1980,
+    "casa": "Marvel",
+    "biografia": "Abogada que, tras una transfusión de sangre de su primo Hulk, adquiere fuerza y resistencia sobrehumana.",
+    "equipamiento": "Fuerza y resistencia sobrehumanas.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Vision",
+    "nombre_real": "Vision",
+    "anio_aparicion": 1968,
+    "casa": "Marvel",
+    "biografia": "Android sintético con habilidades de vibración molecular, fuerza y capacidad de vuelo.",
+    "equipamiento": "Poderes sintéticos, control de densidad, energía solar.",
+    "tipo": "Heroe"
+  },
+  {
+    "nombre": "Winter Soldier",
+    "nombre_real": "Bucky Barnes",
+    "anio_aparicion": 1954,
+    "casa": "Marvel",
+    "biografia": "Soldado mejorado y ex-asesino con brazo biónico, aliado ocasional de los Avengers.",
+    "equipamiento": "Brazo biónico, armas de fuego, habilidades de combate avanzadas.",
+    "tipo": "Villano"
+  }
+]
